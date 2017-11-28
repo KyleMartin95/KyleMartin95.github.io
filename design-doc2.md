@@ -20,5 +20,7 @@ The backend will be the cornerstone of the project. It will contain the database
 ##Design Decisions
 - Development will focus on the web application and move to mobile after the backend is in a stable state.
 - Typescript was used over Javascript due to its complementing nature with React. We can have each component be cast as its own unique class which will help with debugging due to intellisense.
-
+##Notable Changes
+###10-24-17
+Reworked entry gate page to display routes upon preview button or add route button being clicked. More work will need to go into teasing out functionality once the routes are able to be manipulated on the google map. Some questions going forward will be how to deal with the location input boxes when their corresponding map marker is dragged to another location. Will the text in the box become blank or will we need to update the text?
 
