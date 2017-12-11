@@ -54,7 +54,16 @@ Changing the System
     - The front end uses React with the entry point in `/dist/index.html`
     - We use webpack to bundle files in `/src/*` and then output them into the `/dist/` folder.
     - To make changes to the front end you must change the files in `/src/*`
-    - We use React for the project. Each React component has a component folder structure that is described in the readme.md of the front end repository. Follow the instructions there for making a new component.
+    - We use React for the project. Each React component has a component folder structure that is described in the readme.md of the front end repository. 
+        - To make a new component do the following in the `src/components/` folder
+        - 1. Create a directory for the component with the same name as the component.
+        - 2. Create a file for its props with the name format ComponentName.Props.ts
+        - 3. Create a file for the default css styles to apply to the component with the name format ComponentName.styles.ts
+        - 4. Create a file for the component with the name formate ComponentName.tsx
+        - 5. Create an index file that will export the props and components with the name index.ts
+        - 6. Add an export statement to the index.ts file in the component directory that will export all files from the component's index file.
+        - 7. You can now use this component in any other component by writing `import { componentName } from 'path to component from current file'` at the top of the component file you want to use it in.
+        - 8. There is a component called example that has boilerplate code that you cna use as a starting point.
     - The app uses the basepage component as an entry point for our React components.
 
 - To change the back end, you must make changes to the back end repo found [here](https://github.com/KyleMartin95/ChickenBus-Frontend)
