@@ -30,7 +30,7 @@ Another option is to upload a csv file, in the following format
 
 |Name	|Cost	|Stops	|Sunday	|Monday	|Tuesday	|Wednesday	|Thursday	|Friday	|Saturday	|Duration	|Notes|
 | ------- | --- | ------------------ | -----| -----| -----| -----| -----| -----| -----| -----| -----|
-|Esteli - Matagalpa	|15	|Esteli nicaragua, Matagalpa nicaragua		|	| | | | | | | 23| notes|	
+|Esteli - Matagalpa	|15	|Esteli nicaragua, Matagalpa nicaragua		|	| | | | | | | 23| notes|
 
 
 Deploying ChickenBus
@@ -39,6 +39,13 @@ Deploying ChickenBus
 - Install [Node](https://nodejs.org/en/)
 - In the root directory of the repo run `npm install` in a command line interface
 - In the root directory of the repo run `npm run start`
+
+- In order to push changes to the actual website, first push your changes to the master branch of the github repository
+- Then navigate to the [Cloudapps admin console](https://console.cloudapps.unc.edu/console/project/einsler/overview). You must be on the UNC network to do so. If you are off campus, use the vpn
+- Click on the builds button on the left and then click builds again
+- Click on chickenbus-frontend
+- In the upper right hand corner, click start build. This process will take a few minutes.
+
 
 
 Changing the System
@@ -56,4 +63,3 @@ Changing the System
     - The files in that directory deal with handling different route requests.
     - You can add a route in the `api-router.js` file in that folder.
     - Any route added can also make use of the controllers in `app/controllers` which have the meat of the backend's functionality. Here you will find the functions that are described in the repo's readme.
-
