@@ -29,7 +29,7 @@ This page allows you to create bus routes. Add all the information in the fields
 Another option is to upload a csv file, in the following format
 
 |Name	|Cost	|Stops	|Sunday	|Monday	|Tuesday	|Wednesday	|Thursday	|Friday	|Saturday	|Duration	|Notes|
-| --- | --- | -----:| -----| -----| -----| -----| -----| -----| -----| -----| -----|
+| ------- | --- | ------------------ | -----| -----| -----| -----| -----| -----| -----| -----| -----|
 |Esteli - Matagalpa	|15	|Esteli nicaragua, Matagalpa nicaragua		|	| | | | | | | 23| notes|	
 
 
