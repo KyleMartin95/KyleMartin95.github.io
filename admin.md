@@ -12,7 +12,7 @@ Using ChickenBus
 
 ####  Search page
 
-On this page you can search for different bus routes. In order fo it to work, the suggested places must be clicked before pressing search.
+On this page you can search for different bus routes. In order for it to work, the suggested places must be clicked before pressing search.
 
 ####  Register page
 
@@ -25,7 +25,13 @@ This page allows you to login to your ChickenBus account. Provide your username 
 
 This page allows you to create bus routes. Add all the information in the fields. Then you can preview the route to make sure it looks right. If so you can submit it to the database.
 
-Another option is to upload a csv file to
+#### Bulk Entry
+Another option is to upload a csv file, in the following format
+
+|Name	|Cost	|Stops	|Sunday	|Monday	|Tuesday	|Wednesday	|Thursday	|Friday	|Saturday	|Duration	|Notes|
+
+|Esteli - Matagalpa	|15	|Esteli nicaragua, Matagalpa nicaragua		|	| | | | | | | 23| notes|	
+
 
 Deploying ChickenBus
 -------------
