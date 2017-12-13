@@ -13,7 +13,7 @@ The backend will be the cornerstone of the project. It will contain the database
 - Route Creation
     - Creating routes to store in the databse is done two ways. The first is through manual entry through our data entry page. A user can specify specific details about the route and display the route on a google map to see what it looks like.
     - The second way to create routes is through bulk importing from a csv.
-    |Name	|Cost	|Stops	|Sunday	|Monday	|Tuesday	|Wednesday	|Thursday	|Friday	|Saturday	|Duration	|Notes|
+|Name	|Cost	|Stops	|Sunday	|Monday	|Tuesday	|Wednesday	|Thursday	|Friday	|Saturday	|Duration	|Notes|
 | ------- | --- | ------------------ | -----| -----| -----| -----| -----| -----| -----| -----| -----|
 |Esteli - Matagalpa	|15	|Esteli nicaragua, Matagalpa nicaragua		|	| | | | | | | 23| notes|
 ###Data
