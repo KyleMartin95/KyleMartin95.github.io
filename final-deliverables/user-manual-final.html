@@ -7,20 +7,60 @@
   </head>
   <body>
     <div class="container">
-        <h2>How To Use</h2>
-        <p> ChickenBus operates on a web-based portal, and can be accessed freely. A mobile
-          application is currently being developed to be deployed by the end of 2017. In order to access bus route information
-          simply enter your current location and your desired location in the search panel
-          along with when you would like the departure to take place.
+        <h2>How To Use - General User</h2>
+        <p> ChickenBus operates on a web-based portal, and a mobile application. In order to access bus route information
+          simply enter your current location and your desired location in the search panel.
         </p>
-        <image src="../images/Search-Panel.JPG"></image>
-        <p> Optimal routes will appear next the search panel in the map interface.</p>
+        <image src="../images/search.png"></image>
+        <p> User must select the suggested location for origin and destination from the auto-complete drop down.
+            Optimal routes will appear next the search panel in the map interface.</p>
+        <image src="../images/search_result.PNG" alt="Search result" style="width:900px;height:450px;"></image>
+
+        <p>
+
+        </p>
+
+        <h2>How To Use - Admin</h2>
+        <p> Login enables more functionalities, including "Route Entry" and "Data Interface"</p>
+        <h3>Route Entry</h3>
+        <image src="../images/route_entry.png" alt="Route entry" style="width:900px;height:450px;"></image>
+        <p> In route entry, admin can name the route, add the stops, add time, duration, cost, and notes</p>
+        <image src="../images/creating_route.PNG" alt="Create route" style="width:900px;height:450px;"></image>
+        <p> Or to bulk entry a formated csv file with the correct fields</p>
+        <image src="../images/bulk_import.png" alt="Bulk" style="width:900px;height:450px;"></image>
+        
+        <p>Then the admin can preview or add the route</p>
+        <image src="../images/preview_route.png" alt="Preview" style="width:900px;height:450px;"></image>
+        <image src="../images/route_entry_success.png" alt="Entry sucess" style="width:900px;height:450px;"></image>
+        
+        <h3>Data Interface</h3>
+        <p> This interface allows the admin to access the database info without external programs
+            It gives the admin the option to modify routes, stops, and users
+        </p>
+        <image src="../images/data_interface.PNG" alt="Data interface" style="width:1000px;height:350px;"></image>        
+        <p>
+            Modification includes delete and approve 
+        </p>
+        <image src="../images/approve_delete.PNG" alt="Approve delete" style="width:900px;height:450px;"></image>  
+        
+        <p></p>
+        <h2>How To Use - Mobile</h2>
+        <p> Interface is same for all level of user</p>
+        <p> Home tab contains our search function with the same auto-complete origin and destination</p>
+        <image src="../images/mobile-home.png" alt="Mobile home" style="width:300px;height:450px;"></image>
+        <p> By clicking "search" the user is taken to the Map tab, and the origin, destination are pinned and drawn</p>
+        <p> The route info is hidden in the pin of destination, and can be accessed by clicking on it</p>
+        <image src="../images/mobile-map.png" alt="Mobile map" style="width:300px;height:450px;"></image>  
+                            
         <h2>FAQS</h2>
         <ul>
             <li>What if nothing is returned when I enter my origin, destination, and departure time?
-            - Then it is likely there is not a route within your specified time frame, or radius.
+            - Then it is likely there is not a route within your specified radius.
             It is equally likely that we do not have any bus route information for your current area.
             </li>
+            <li>Route Entry is equiped with warning to catch any invalid input</li>
+            <li>Bulk import must be formated exactly as stated, see admin.md</li>
+
         </ul>
     </div>
   </body>
