@@ -46,6 +46,12 @@ Deploying ChickenBus
 - Click on chickenbus-frontend
 - In the upper right hand corner, click start build. This process will take a few minutes.
 
+- For mobile, clone the repo found [here](https://github.com/KyleMartin95/ChickenBus-Mobile)
+- Install [Node](https://nodejs.org/en/) if you haven't already done so
+- Download the [Expo](https://expo.io/) app from the app store on your pone.
+- In the root directory of the repo run `npm install` in a command line interface
+- In the root directory of the repo run `npm run start`
+
 
 
 Changing the System
