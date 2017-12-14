@@ -12,7 +12,12 @@ The backend will be the cornerstone of the project. It will contain the database
 ###Processes
 - Route Creation
     - Creating routes to store in the databse is done two ways. The first is through manual entry through our data entry page. A user can specify specific details about the route and display the route on a google map to see what it looks like.
-    - The second way to create routes is through bulk importing from a csv.
+    - The second way to create routes is through bulk importing from a csv with the following format
+
+|Name	|Cost	|Stops	|Sunday	|Monday	|Tuesday	|Wednesday	|Thursday	|Friday	|Saturday	|Duration	|Notes|
+| ------- | --- | ------------------ | -----| -----| -----| -----| -----| -----| -----| -----| -----|
+|Esteli - Matagalpa	|15	|Esteli nicaragua, Matagalpa nicaragua		|	| | | | | | 1:34, 20:50 | 23| notes|
+
 ###Data
 - Routes: 
 - Users: We store users in our database to kepe track of who is able to add routes to the databse. Currently we have users stored as a JSON object with a username, password, and email attribute.
@@ -20,7 +25,7 @@ The backend will be the cornerstone of the project. It will contain the database
 ##Module Definitions
 - Frontend: All front end component definitions can be found in the components folder [here](https://github.com/KyleMartin95/ChickenBus-Frontend/tree/master/src/components). Each component has a file called 'componentName.props.ts' that will list out interface definitions for its methods, stylings, and and properties.
 ##Data Definitions
-- Backend: Our data definitons can be found in the images [attatched](./designDocFinal.md) to the design architecture file.
+- Backend: Our data definitons can be found in the images [attatched](./design-architecture-final.html) to the design architecture file.
 ##Design Decisions
 - Development will focus on the web application and move to mobile after the backend is in a stable state.
 - Typescript was used over Javascript due to its complementing nature with React. We can have each component be cast as its own unique class which will help with debugging due to intellisense.
